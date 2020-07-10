@@ -28,7 +28,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['apple-challenge.herokuapp.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
