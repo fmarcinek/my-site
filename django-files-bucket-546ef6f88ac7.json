@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "django-files-bucket",
+  "private_key_id": "546ef6f88ac79bc5234e956b44b6459556d2e1aa",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQC9ccWsfifDmoTI\nkBuqWvYLsKLyQFR5EN/n/ovpY3Gcjk6kk4yrocE/tqhrHimcPKCI8IjcfHCBTw6z\neGCuNTO7F1W5VnF0h1DhC1Ym++UPkH7irL+K2aQGtwJD9vIhYo41faBRtIGjPuQN\n6OTHLwm7BrsoBS7sW2yfzCf4pxQ7rno3sJhLHs4gs32vl6WNXRsCenWouWNSqlF1\n+3ASX0V8uIG4cR1iQuwPn3ORS3aXh8vVt8c06c+cknRHKeKDX6RXiPO5zGyf/NDM\nCycQP0KKlbdvN0mOsdku100DdqQLw2Tfe3i6KIfzK/fDIgvyuUrxf1MpGt1M1mtD\nTw96XOLlAgMBAAECgf96pODesDCelJ4DIUh1PQ8hr7bmx6H46AqAavHKMOeHu1dT\nm8b8RbXL2jS+8sHQD0acu8EpHeKW/Y0uIx1r3EN17nX2ERc025cfx8FjwcRiI9Do\noFTUV5pbKeGqfVfk5ikWCKfH2mzx5Xz8xmRup9Wm6ktcwHHolpoZAwxhrcj5+jJW\nX8GwCo9g3cXqmTIseWa6DIMoTl9inEoV7EpEGl1dtz3VTC/Exu8zzpgME8v40cmk\nrX547mH4j7bW3W1UHI/nNKn+MC70HeEXmq8T1ElJnA87D9y1aXslsF8kx2LAXjT7\n2eh5woQXkZhQFysN7V3FICKG7QOFqSPw7JRKJikCgYEA3X2B8ySu87DKElwY59mj\nYd2hcdSsS6iEbcyrkvQuvcBLIOI/AAg7uvUR57WhbHLUcfaOBf4DruaeYMYxijZJ\nJhnEk4u57DaPC6uDo9xSH5SZKuhA8S8bAFFkkgYRKvzocI7MHeaHj+l8JkGkXsQP\ncbGdBdIMeYVKRjIpaXlPfPkCgYEA2vYQp0WqwKnf/frDqlW5m3w42YFYH42fgnHD\nR/3t+7gq0TVuEEtSpyns6z2r5mp0HiyGCNVgwJVNpCTN7dhh8EK8FnpDHBowNH3+\nT2nLUKWAfbncLfN20G1sTGha06JzRzuBeAs2mcTrPCg5tDu1ODohDpVokFsKaurB\nUJGlrE0CgYA5iAM8I9gpxk8Gq9NwTbDJl+b6iVJjqJcVaida2YBWm18oYHwaxwi0\nzDllZWFTqRQTsgY7+jn8sTyMSI7PpsAjXGgaJx4ZBCbt0hQ0eOL//vo2EfPkcebi\nk0G7SEYnU2AQ9JaCYcHumKg9y6klUGnuj0MJIwFIg13Ck/77vZ3vCQKBgC27Zw8I\nxfkngdkSHvvcm7+V2mnTUgyFD+O2zwqiRqpkdMztU+ejU8gGQa2AW/7sDQSgV/5Q\nUrzmcijuZvReVVZRGee38XxVG+xaxFrhxc06Q/P+dbZDO3Wc5RmwUggRzfH6w7fG\n38iOEHOoEyVJszfjLDRXkFdWLH7YOTgSs3+hAoGBAMXX/URcjp4ic69W7uAK5KQN\nzg9V1VhszMe+zR1E4wWMjAqOwtJLbvwEmKlDJi3B5NARdq/kNEBu6XozSFqIbIpf\nbOuyHlmpdwyg+/w7Y0gOMWvIEKUU9pgou33weeDmRgG89QrvDlUHWHGzfhRTx1hB\nNTm96xz5G4p8s5LGdT1X\n-----END PRIVATE KEY-----\n",
+  "client_email": "885593873418-compute@developer.gserviceaccount.com",
+  "client_id": "109830473679605848002",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/885593873418-compute%40developer.gserviceaccount.com"
+}
