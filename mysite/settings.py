@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'storages',
+    'django_cleanup.apps.CleanupConfig',
 ]
 
 MIDDLEWARE = [
@@ -77,20 +79,20 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': dj_database_url.config()
-}
-
 # DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'filip',
-#         'USER': 'filip',
-#         'PASSWORD': os.environ.get('DJANGO_DATABASE_PASSWORD'),
-#         'HOST': '127.0.0.1',
-#         'PORT': '5432',
-#     }
+#     'default': dj_database_url.config()
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': os.environ.get('DJANGO_DATABASE_PASSWORD'),
+        'HOST': os.environ.get('DJANGO_DATABASE_HOST'),
+        'PORT': os.environ.get('DJANGO_DATABASE_PORT'),
+    }
+}
 # 'default': {
 #     'ENGINE': 'django.db.backends.sqlite3',
 #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
@@ -144,3 +146,8 @@ LOGIN_REDIRECT_URL = 'blog-home'
 LOGIN_URL = 'login'
 
 django_heroku.settings(locals())
+
+DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+GS_BUCKET_NAME = 'django-files-bucket'
+STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+GS_FILE_OVERWRITE = False
